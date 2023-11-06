@@ -18,7 +18,7 @@ echo.%mypath%| FIND /I "Oculus">Nul && (
 :menu
 echo Ocustop Firewall Tool
 echo =====================
-echo %mypath%
+echo.
 echo 1) Add Firewall Rules
 echo 2) Remove Firewall Rules
 echo 3) Exit
