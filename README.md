@@ -1,7 +1,8 @@
 # Ocustop Firewall Tool
-Simple addition or removal of firewall rules for Oculus.
+Simple addition or removal of Blocking firewall rules for Oculus.
+Original rules are untouched so normal rules are restored upon removal.
 
-Creates or Removes the following Firewall Rules:
+Creates or Removes a Firewall Block for the following Firewall Rules:
 -  OVRLibrarian.exe
 -  OVRLibraryService.exe
 -  OVRRedir.exe
@@ -11,4 +12,11 @@ Creates or Removes the following Firewall Rules:
 
 # Usage
 - Run the batch file as Administrator
-- Add or Remove Oculus Firewall Rules
+- Select Add Oculus Firewall Rules
+- Exit
+
+# Uninstallation
+- Run the batch file as Administrator
+- Select Remove Oculus Firewall Rules
+- Exit
+- Delete .Bat File
