@@ -33,7 +33,7 @@ goto begin
 :add
 echo Adding Firewall Rules
 echo.
-for %%G in ("%mypath%OVRLibrarian.exe" "%mypath%OVRLibraryService.exe" "%mypath%OVRRedir.exe" "%mypath%OVRServer_x64.exe" "%mypath%OVRServiceLauncher.exe" "%mypath%OVRRedistributableInstaller.exe") do (
+for %%G in ("%mypath%oculus-librarian/OVRLibrarian.exe" "%mypath%oculus-librarian/OVRLibraryService.exe" "%mypath%oculus-runtime/OVRRedir.exe" "%mypath%oculus-runtime/OVRServer_x64.exe" "%mypath%oculus-runtime/OVRServiceLauncher.exe" "%mypath%oculus-redistributable-installer/OVRRedistributableInstaller.exe") do (
 
 echo Creating Rule %%G Inbound
 netsh advfirewall firewall add rule name=""%%G"" program=""%%G"" dir=in enable=yes action=block profile=any
@@ -48,7 +48,7 @@ goto exit
 :remove
 echo Removing Firewall Rules
 echo.
-for %%G in ("%mypath%OVRLibrarian.exe" "%mypath%OVRLibraryService.exe" "%mypath%OVRRedir.exe" "%mypath%OVRServer_x64.exe" "%mypath%OVRServiceLauncher.exe" "%mypath%OVRRedistributableInstaller.exe") do (
+for %%G in ("%mypath%oculus-librarian/OVRLibrarian.exe" "%mypath%oculus-librarian/OVRLibraryService.exe" "%mypath%oculus-runtime/OVRRedir.exe" "%mypath%oculus-runtime/OVRServer_x64.exe" "%mypath%oculus-runtime/OVRServiceLauncher.exe" "%mypath%oculus-redistributable-installer/OVRRedistributableInstaller.exe") do (
 
 echo Removing Rule %%G Inbound
 netsh advfirewall firewall delete rule name=""%%G"" dir=in
