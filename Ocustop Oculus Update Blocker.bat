@@ -27,8 +27,10 @@ set /p op=Choose Action:
 if "%op%"=="1" goto add
 if "%op%"=="2" goto remove
 if "%op%"=="3" goto exit
-
-goto begin
+echo.
+echo Incorrect Option
+echo.
+goto menu
 
 :add
 echo =========================
