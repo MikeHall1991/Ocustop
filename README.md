@@ -1,22 +1,17 @@
-# Ocustop Firewall Tool
-Simple addition or removal of Blocking firewall rules for Oculus.
-Original rules are untouched so normal rules are restored upon removal.
+# Ocustop Oculus Update Blocker
+Simple Update Blocker for Oculus to avoid updates.
+Store will not work while updates are blocked.
 
-Creates or Removes a Firewall Block for the following Firewall Rules:
--  OVRLibrarian.exe
--  OVRLibraryService.exe
--  OVRRedir.exe
--  OVRServer_x64.exe
--  OVRServiceLauncher.exe
--  OVRRedistributableInstaller.exe
+Blocks the following in host file:
+graph.oculus.com
 
 # Usage
 - Run the batch file as Administrator
-- Select Add Oculus Firewall Rules
+- Select Block Oculus Updates
 - Exit
 
 # Uninstallation
 - Run the batch file as Administrator
-- Select Remove Oculus Firewall Rules
+- Select Allow Oculus Updates
 - Exit
 - Delete .Bat File
