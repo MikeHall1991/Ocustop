@@ -1,6 +1,8 @@
 # Ocustop Oculus Update Blocker
-Simple Update Blocker for Oculus to avoid updates.
+Simple Update Blocker for Oculus to avoid updates after a downgrade.
+
 Store will not work while updates are blocked.
+
 Creates a backup of Hosts file before adding block, restores from backup when removed.
 
 Blocks the following in host file:
