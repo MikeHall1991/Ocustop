@@ -1,5 +1,5 @@
 # Ocustop Oculus Update Blocker
-Simple Update Blocker for Oculus to avoid updates after a downgrade.
+Simple Update Blocker for Oculus to avoid updates after a rollback.
 
 Store will not work while updates are blocked.
 
